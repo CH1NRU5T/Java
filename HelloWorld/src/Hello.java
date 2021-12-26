@@ -3,7 +3,13 @@ public class Hello {
         System.out.println("Hello World");
 
         int myFirstNumber = (10 + 5) + (2 * 10);
-        System.out.println(myFirstNumber);
+        int mySecondNumber = 12;
+        int myThirdNumber = myFirstNumber * 2;
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+
+        System.out.println(myTotal);
+        int myLastOne = 1000 - myTotal;
+        System.out.println(myLastOne);
     }
 }
 /*
@@ -21,4 +27,5 @@ public class Hello {
  *  Expression - This is a construct that evaluates to a single value
  *  "stringLiteral" - Any sequence of characters  surrounded by double quotes is a String literal in Java. It's value cannot be changed unlike a variable
  *  operators - +,* are the operators in Java
+ *  `int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;` - this is an expression. Java expressions consist of variables, operators, literals and, method calls
  * */
